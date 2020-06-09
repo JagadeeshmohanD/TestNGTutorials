@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="14" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-25T09:44:02 IST" name="Suite" finished-at="2020-05-25T09:44:02 IST" duration-ms="144">
+    <groups>
+      <group name="smoke">
+        <method signature="Day2.hello()[pri:0, instance:Test.Day2@78e94dcf]" name="hello" class="Test.Day2"/>
+        <method signature="Day3.mobilelogin()[pri:0, instance:Test.Day3@233fe9b6]" name="mobilelogin" class="Test.Day3"/>
+        <method signature="Day4.plan()[pri:0, instance:Test.Day4@358ee631]" name="plan" class="Test.Day4"/>
+      </group> <!-- smoke -->
+      <group name="basicsmoke">
+        <method signature="BasicsClass1.demo()[pri:0, instance:Test.BasicsClass1@37918c79]" name="demo" class="Test.BasicsClass1"/>
+        <method signature="Day3.mobilesplash()[pri:0, instance:Test.Day3@233fe9b6]" name="mobilesplash" class="Test.Day3"/>
+        <method signature="Day3.weblogin()[pri:0, instance:Test.Day3@233fe9b6]" name="weblogin" class="Test.Day3"/>
+        <method signature="Day4.basicsmoke()[pri:0, instance:Test.Day4@358ee631]" name="basicsmoke" class="Test.Day4"/>
+      </group> <!-- basicsmoke -->
+    </groups>
+    <test started-at="2020-05-25T09:44:02 IST" name="Test" finished-at="2020-05-25T09:44:02 IST" duration-ms="144">
+      <class name="Test.Day2">
+        <test-method signature="hello()[pri:0, instance:Test.Day2@78e94dcf]" started-at="2020-05-25T09:44:02 IST" name="hello" finished-at="2020-05-25T09:44:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- Test.Day2 -->
+      <class name="Test.Day3">
+        <test-method signature="mobilelogin()[pri:0, instance:Test.Day3@233fe9b6]" started-at="2020-05-25T09:44:02 IST" name="mobilelogin" finished-at="2020-05-25T09:44:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilelogin -->
+        <test-method signature="mobilesplash()[pri:0, instance:Test.Day3@233fe9b6]" started-at="2020-05-25T09:44:02 IST" name="mobilesplash" finished-at="2020-05-25T09:44:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilesplash -->
+        <test-method signature="weblogin()[pri:0, instance:Test.Day3@233fe9b6]" started-at="2020-05-25T09:44:02 IST" name="weblogin" finished-at="2020-05-25T09:44:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogin -->
+      </class> <!-- Test.Day3 -->
+      <class name="Test.Day4">
+        <test-method signature="basicsmoke()[pri:0, instance:Test.Day4@358ee631]" started-at="2020-05-25T09:44:02 IST" name="basicsmoke" finished-at="2020-05-25T09:44:02 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicsmoke -->
+        <test-method signature="plan()[pri:0, instance:Test.Day4@358ee631]" started-at="2020-05-25T09:44:02 IST" name="plan" finished-at="2020-05-25T09:44:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plan -->
+      </class> <!-- Test.Day4 -->
+      <class name="Test.BasicsClass1">
+        <test-method signature="demo()[pri:0, instance:Test.BasicsClass1@37918c79]" started-at="2020-05-25T09:44:02 IST" name="demo" finished-at="2020-05-25T09:44:02 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- Test.BasicsClass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
